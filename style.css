@@ -3,9 +3,17 @@
     font-family: "Comic Sans MS", sans-serif;
     background-color: RGB(255,235,75);
     display: block;
-    position: fixed;
+    /*position: fixed;*/
     top: 0;
     left: 0;
     padding: 10px;
     width: 100%;
 }
+
+#main-header {
+    font-family: "Comic Sans MS", sans-serif;
+    background-color: #B6D7A8;
+    text-align: center;
+}
+
+
