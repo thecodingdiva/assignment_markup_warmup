@@ -27,6 +27,7 @@ body{
     background-color: #D5A6BD;
     float: left;
     height: 700px;
+    min-width: 300px;
     line-height: 15;
 }
 
@@ -34,8 +35,6 @@ body{
     border: solid;
     height: 300px;
     background-color: white;
-    font-size: 200;
-    text-align: center;
 }
 
 section {
@@ -43,6 +42,10 @@ section {
     padding: 10px;
     border: solid;
     margin: 10px;
+    min-width: 300px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    height: 100%;
 }
 
 .post-heading {
