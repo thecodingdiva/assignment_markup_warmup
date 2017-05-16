@@ -19,6 +19,10 @@ body{
     border-radius: 25px;
 }
 
+.wrapper {
+    display: flex;
+}
+
 #ad-space{
     background-color: #D5A6BD;
 }
