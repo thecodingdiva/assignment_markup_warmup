@@ -25,12 +25,19 @@ body{
 
 #ad-space{
     background-color: #D5A6BD;
+    float: left;
+    height: 700px;
+    line-height: 15;
 }
 
 #blank-space{
     border: solid;
+    height: 300px;
     background-color: white;
+    font-size: 200;
+    text-align: center;
 }
+
 section {
     background-color: #9ABBC0;
     padding: 10px;
