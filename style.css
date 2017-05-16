@@ -19,9 +19,19 @@ body{
     border-radius: 25px;
 }
 
+#ad-space{
+    background-color: #D5A6BD;
+}
+
+#blank-space{
+    border: solid;
+    background-color: white;
+}
 section {
     background-color: #9ABBC0;
     padding: 10px;
+    border: solid;
+    margin: 10px;
 }
 
 .post-heading {
