@@ -1,12 +1,12 @@
 body{
-    font-family: "Comic Sans MS", sans-serif; 
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 #site-header {
     font-size: 24px;
     background-color: RGB(255,235,75);
     display: block;
-    /*position: fixed;*/
+    position: fixed;
     top: 0;
     left: 0;
     padding: 10px;
@@ -17,6 +17,7 @@ body{
     background-color: #B6D7A8;
     text-align: center;
     border-radius: 25px;
+    margin-top: 70px;
 }
 
 .wrapper {
@@ -42,10 +43,10 @@ section {
     padding: 10px;
     border: solid;
     margin: 10px;
-    min-width: 300px;
+    min-width: 245px;
     flex-grow: 1;
     flex-wrap: wrap;
-    height: 100%;
+    align-items: stretch;
 }
 
 .post-heading {
